@@ -29,7 +29,7 @@ body {
 
 .contact-in:nth-child(1) {
 	flex: 30%;
-	background: url(image.jpg);
+	background: url('image.jpg');
     background-size: contain;
 	color: rgb(93, 194, 219);
 }
