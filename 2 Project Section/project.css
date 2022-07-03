@@ -1,0 +1,93 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+   
+}
+
+h1{
+    padding: 20px;
+    margin-top: 20px;
+    color:teal;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 44;
+    
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background:bisque;
+    width: 270px;
+    height: 430px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+
+.card-image {
+
+    /* background-color: aqua; */
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.pr1{
+    background-image: url('https://www.ibrandox.com/IbrandoxBackEndImage/BlogImage/e-commerce-top-ecommerce-web-designing-trends-in-prominence.jpg');
+}
+
+.pr2{
+    background-image: url('https://appinventiv.com/wp-content/uploads/sites/1/2016/06/Restaurant-App-Development-Benefits-Of-Online-Food-Ordering-Services.png');
+}
+
+.pr3{
+    background-image: url('https://psmag.com/.image/t_share/MTI3NTgyMjIwOTYwNjM1MzU4/flappy-bird.jpg');
+}
+
+h2{
+    padding-left: 10px;
+    padding-top: 29vh;
+    color:rgb(64, 41, 212);
+}
+
+p{
+    padding: 10px;
+}
+
+.card a{
+
+    color: #fff;
+    background-color: #2b9ec2;
+    border: 1px solid#2b9ec2;
+    display: block;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 20px 50px;
+    text-decoration: none;
+    Letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.card:hover{
+
+    background-color:grey;
+    color: white;
+    cursor: pointer;
+    transform: scale3d(1.03);
+    transition: all 1s ease-in-out;
+}
